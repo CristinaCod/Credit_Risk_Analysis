@@ -1,7 +1,9 @@
 # Credit Risk Analysis
 ## Overview
 ### Purpose
-This analysis was performed using our newly acquired knowledge of Machine Learning. Using started code provided in the form of a Python file, in our Jupyter Notebooks, we used different machine learning models to evaluate a dataset regarding credit and predicting high vs low risk. The models include oversampling techniques including **RandomOverSampler** and **SMOTE**. Undersampling using **ClusterCentroids**. Combination sampling using **SMOTTENN**. And finally using ensemble learners such as **BalancedRandomForestClassifier** and **EasyEnsembleClassifier**.
+The purpose of this project was to continue our learning in Machine Learning, this time by predicting credit risk. Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, we applied six different machine learning models to determine if one of them would perform the best and therefore recommend it be used to predict future credit risk. 
+
+This analysis was performed using our newly acquired knowledge of Machine Learning. Using starter code provided in the form of a Python file, in our Jupyter Notebooks, we used different machine learning models to evaluate a dataset regarding credit and predicting high vs low risk. The models include oversampling techniques including **RandomOverSampler** and **SMOTE**. Undersampling using **ClusterCentroids**. Combination sampling using **SMOTTENN**. And finally using ensemble learners such as **BalancedRandomForestClassifier** and **EasyEnsembleClassifier**.
 
 A snapshot of the initial features dataframe is provided below to show the start point for this analysis. However, please note this is not the entire dataframe and a few columns are missing from the end as they did not all fit on the screen.
 
