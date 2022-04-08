@@ -13,24 +13,24 @@ Below are the results of all six machine learning models used in this analysis. 
 •	**RandomOverSampler Model**
 ![ros.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2011.58.46%20AM.png)
 
-•	**SMOTE Model**
+The Balanced Accuracy Score is 64.9%.
+The high risk precision is 1% with 62% sensitivity which gives us a harmonic mean, or F1 score, of 2%.
 
+•	**SMOTE Model**
 ![smote.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2011.59.13%20AM.png)
 
-•	**ClusterCentroids Model**
+Results are quite similar to the RandomOverSampler Model
 
+•	**ClusterCentroids Model**
 ![ccm.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2011.59.39%20AM.png)
 
 •	**SMOTEEN Model**
-
 ![smottenn.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.00.04%20PM.png)
 
 •	**BalancedRandomForestClassifier Model**
-
 ![brfc.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.00.43%20PM.png)
 
 •	**EasyEnsembleClassifier Model**
-
 ![eec.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.01.09%20PM.png)
 
 ## Summary
