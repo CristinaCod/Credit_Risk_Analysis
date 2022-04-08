@@ -31,28 +31,28 @@ The high risk precision is 1% with 63% sensitivity which again gives us a harmon
 
 The Balanced Accuracy Score is 64.4%.
 
-The high risk precision is 1% with 61% sensitivity which again gives us a harmonic mean, or F1 score, of %.
+The high risk precision is 1% with 61% sensitivity which again gives us a harmonic mean, or F1 score, of 2%.
 
 •	**SMOTEEN Model**
 ![smottenn.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.00.04%20PM.png)
 
 The Balanced Accuracy Score is 52.9%.
 
-The high risk precision is 1% with 70% sensitivity which again gives us a harmonic mean, or F1 score, of %.
+The high risk precision is 1% with 70% sensitivity which again gives us a harmonic mean, or F1 score, of 2%.
 
 •	**BalancedRandomForestClassifier Model**
 ![brfc.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.00.43%20PM.png)
 
 The Balanced Accuracy Score is 78.7%.
 
-The high risk precision is 4% with 67% sensitivity which again gives us a harmonic mean, or F1 score, of 7%.
+The high risk precision is 4% with 67% sensitivity which again gives us a harmonic mean, or F1 score, of 7.5%.
 
 •	**EasyEnsembleClassifier Model**
 ![eec.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.01.09%20PM.png)
 
 The Balanced Accuracy Score is 92.5%.
 
-The high risk precision is 7% with 91% sensitivity which again gives us a harmonic mean, or F1 score, of 14%.
+The high risk precision is 7% with 91% sensitivity which again gives us a harmonic mean, or F1 score, of 13%.
 
 ## Summary
 ### Findings
