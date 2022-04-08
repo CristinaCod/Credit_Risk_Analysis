@@ -68,5 +68,10 @@ The low risk precision is 100% with 94% sensitivity.
 
 ## Summary
 ### Findings
+When examining the precision for high-risk credit of the first four models seen in the resampling portion of this analysis, we see that they are very low and weak, being 1% for all of them. When we moved on to the last two models seen in the ensemble portion, the precision for high-risk credit did improve to 4% and 7%, respectfully. 
 
 ### Recommendations
+The model where we saw the highest precision and balanced accuracy score was in the EasyEnsembleClassifier model. With a 93% BAS it detected virtually all high-risk credit which theoretically should make it the most reliable model to use. However, the amount of false positives, aka low risk credits improperly detected as high risk, cause us to be apprehensive in support of this model as well.
+
+Additionally, while the EasyEnsembleClassfier model had the highest precision percentage of 7%, that is still low in the grand scheme of things. 
+For these reasons it’s the best model to use if deemed absolutely necessary by the bank however, if not necessary then I would not recommend any of the models be used as it could reflect poorly on banks. 
