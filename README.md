@@ -14,24 +14,45 @@ Below are the results of all six machine learning models used in this analysis. 
 ![ros.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2011.58.46%20AM.png)
 
 The Balanced Accuracy Score is 64.9%.
+
 The high risk precision is 1% with 62% sensitivity which gives us a harmonic mean, or F1 score, of 2%.
 
 •	**SMOTE Model**
 ![smote.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2011.59.13%20AM.png)
 
-Results are quite similar to the RandomOverSampler Model
+Results are quite similar to the RandomOverSampler Model.
+
+The Balanced Accuracy Score is 64.4%.
+
+The high risk precision is 1% with 63% sensitivity which again gives us a harmonic mean, or F1 score, of 2%.
 
 •	**ClusterCentroids Model**
 ![ccm.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2011.59.39%20AM.png)
 
+The Balanced Accuracy Score is 64.4%.
+
+The high risk precision is 1% with 61% sensitivity which again gives us a harmonic mean, or F1 score, of %.
+
 •	**SMOTEEN Model**
 ![smottenn.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.00.04%20PM.png)
+
+The Balanced Accuracy Score is 52.9%.
+
+The high risk precision is 1% with 70% sensitivity which again gives us a harmonic mean, or F1 score, of %.
 
 •	**BalancedRandomForestClassifier Model**
 ![brfc.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.00.43%20PM.png)
 
+The Balanced Accuracy Score is 78.7%.
+
+The high risk precision is 4% with 67% sensitivity which again gives us a harmonic mean, or F1 score, of 7%.
+
 •	**EasyEnsembleClassifier Model**
 ![eec.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2012.01.09%20PM.png)
+
+The Balanced Accuracy Score is 92.5%.
+
+The high risk precision is 7% with 91% sensitivity which again gives us a harmonic mean, or F1 score, of 14%.
 
 ## Summary
 ### Findings
