@@ -11,7 +11,6 @@ A snapshot of the initial features dataframe is provided below to show the start
 Below are the results of all six machine learning models used in this analysis. Here you will see the respected outputs for the balanced accuracy scores, confusion matrix, and imbalanced classification report for all six models. 
 
 •	**RandomOverSampler Model**
-
 ![ros.png](https://github.com/CristinaCod/Credit_Risk_Analysis/blob/main/Resources/Screen%20Shot%202022-04-08%20at%2011.58.46%20AM.png)
 
 •	**SMOTE Model**
