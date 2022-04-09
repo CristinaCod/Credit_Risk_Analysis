@@ -72,6 +72,8 @@ The low risk precision is 100% with 94% sensitivity.
 ### Findings
 When examining the precision for high-risk credit of the first four models seen in the resampling portion of this analysis, we see that they are very low and weak, being 1% for all of them. When we moved on to the last two models seen in the ensemble portion, the precision for high-risk credit did improve to 4% and 7%, respectfully. 
 
+The only findings that were questionable to me was when running the BalancedRandomForestClassifier we were tasked with listing the features sorted in descending order by feature importance. Theoretically, based on the data we're analyzing one would expect loan amount be ranked as most important. However, that was not the case for my model. My machine ranked total_rec_prncp as the most important feature which had me questioning the validity of my results and how trustworthy this model actually is. 
+
 ### Recommendations
 The model where we saw the highest precision and balanced accuracy score was in the EasyEnsembleClassifier model. With a 93% BAS it detected virtually all high-risk credit which theoretically should make it the most reliable model to use. However, the amount of false positives, aka low risk credits improperly detected as high risk, cause us to be apprehensive in support of this model as well.
 
